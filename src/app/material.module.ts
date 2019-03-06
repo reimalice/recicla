@@ -20,7 +20,8 @@ import {
     MatSelectModule,
     MatTableModule,
     MatSortModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    MatSlideToggleModule
   } from '@angular/material';
   import { NgModule } from '@angular/core';
   import { CommonModule } from '@angular/common';
@@ -51,7 +52,8 @@ import {
       MatSelectModule,
       MatTableModule,
       MatSortModule,
-      MatPaginatorModule 
+      MatPaginatorModule,
+      MatSlideToggleModule 
     ],
     exports: [
       MatButtonModule,
@@ -74,7 +76,8 @@ import {
       MatSelectModule,
       MatTableModule,
       MatSortModule,
-      MatPaginatorModule 
+      MatPaginatorModule,
+      MatSlideToggleModule 
   
     ]
   })

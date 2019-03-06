@@ -9,11 +9,15 @@ const routes: Routes = [
     path: 'login', component: LoginComponent
   },
   {
-    path: 'home', component: PrincipalComponent
+    path: '', component: PrincipalComponent
   },
   {
     path: 'registrar', component: RegistrarComponent
-  }
+  },
+  {
+    path: "**",
+    redirectTo: '/'
+}
 ];
 
 @NgModule({

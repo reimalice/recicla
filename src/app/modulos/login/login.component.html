@@ -1,1 +1,37 @@
-<h1>login</h1>
+<div class="page-wrap height-100 mat-bg-primary">
+  <div class="session-form-hold">
+    <mat-progress-bar mode="determinate" class="session-progress"></mat-progress-bar>
+    <mat-card>
+      <mat-card-content>
+        <div class="text-center pb-1">
+          <img src="assets/images/logo-full.png" alt="" class="mb-05">
+          <p class="text-muted m-0">Sign in to your account</p>
+        </div>
+         
+        <div fxLayout="column">
+          <mat-form-field>
+            <input matInput placeholder="Usuario" >
+          </mat-form-field>
+  
+          <mat-form-field>
+            <input matInput placeholder="Contraseña" type="password">
+          </mat-form-field>
+          <div class="pb-1">
+        </div>
+
+            <mat-checkbox
+            
+              class="pb-1">Remember this computer</mat-checkbox>
+          </div>
+          
+          <button mat-raised-button class="mat-primary full-width mb-1" >Sign in</button>
+          <div class="text-center">
+            <a routerLink="'/sessions/forgot-password'" class="mat-primary text-center full-width">Forgot password</a>
+            <span fxFlex></span>
+            <a routerLink="'/sessions/signup'" class="mat-primary text-center full-width">Create a new account</a>
+          </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
+

@@ -52,8 +52,8 @@
           
           
           <button mat-raised-button class="mat-primary full-width mb-1" >CREAR NUEVA CUENTA</button>
-          <button mat-button routerLink="/home">Volver a la página principal</button>
-          <button mat-button routerLink="/login">Iniciar sesión</button>
+          <button mat-button [routerLink]="['/home']">Volver a la página principal</button>
+          <button mat-button [routerLink]="['/login']">Iniciar sesión</button>
       </mat-card-content>
     </mat-card>
   </div>

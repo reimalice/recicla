@@ -26,9 +26,9 @@
           
           <button mat-raised-button class="mat-primary full-width mb-1" >Ingresar</button>
           <div class="text-center">
-            <a routerLink="'/sessions/forgot-password'" class="mat-primary text-center full-width">¿Olvidaste tu constraseña?</a>
+            <a [routerLink]="['/login']" class="mat-primary text-center full-width">¿Olvidaste tu constraseña?</a>
             <span fxFlex></span>
-            <a routerLink="'/sessions/signup'" class="mat-primary text-center full-width">Crear una nueva cuenta</a>
+            <a [routerLink]="['/registrar']" class="mat-primary text-center full-width">Crear una nueva cuenta</a>
           </div>
       </mat-card-content>
     </mat-card>

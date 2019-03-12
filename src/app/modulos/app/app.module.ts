@@ -1,11 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { PrincipalComponent } from './principal/principal.component';
+import { PrincipalAppComponent } from './principal/principal.component';
+import {MaterialModule} from '../../material.module';
 
 @NgModule({
-  declarations: [PrincipalComponent],
+  declarations: [PrincipalAppComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    MaterialModule
   ]
 })
 export class AppModule { }

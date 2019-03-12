@@ -4,7 +4,7 @@ import {LoginComponent} from './modulos/login/login.component'
 import { PrincipalComponent } from 'src/app/modulos/home/principal/principal.component';
 import { RegistrarComponent } from 'src/app/modulos/registrar/registrar/registrar.component';
 
-const routes: Routes = [
+export const routes: Routes = [
   {
     path: 'login', component: LoginComponent
   },
@@ -20,8 +20,3 @@ const routes: Routes = [
 }
 ];
 
-@NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
-})
-export class AppRoutingModule { }

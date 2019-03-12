@@ -4,7 +4,8 @@ import { LoginComponent } from './login/login.component';
 import {MaterialModule} from '../material.module';
 import {PrincipalComponent} from './home/principal/principal.component'
 import { RegistrarComponent } from 'src/app/modulos/registrar/registrar/registrar.component';
-
+import { RouterModule } from '@angular/router';
+import { FlexLayoutModule } from '@angular/flex-layout';
 @NgModule({
   declarations: [
     LoginComponent,
@@ -13,7 +14,8 @@ import { RegistrarComponent } from 'src/app/modulos/registrar/registrar/registra
   imports: [
     CommonModule,
     MaterialModule,
-    
+    RouterModule,
+    FlexLayoutModule
   ],
   exports:[
     

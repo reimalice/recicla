@@ -6,11 +6,13 @@ import {PrincipalComponent} from './home/principal/principal.component'
 import { RegistrarComponent } from 'src/app/modulos/registrar/registrar/registrar.component';
 import { RouterModule } from '@angular/router';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { PrincipalAppComponent } from 'src/app/modulos/app/principal/principal.component';
 @NgModule({
   declarations: [
     LoginComponent,
     PrincipalComponent,
-    RegistrarComponent],
+    RegistrarComponent,
+  PrincipalAppComponent],
   imports: [
     CommonModule,
     MaterialModule,

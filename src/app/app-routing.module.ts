@@ -16,8 +16,17 @@ export const routes: Routes = [
     path: 'registrar', component: RegistrarComponent
   },
   {
-    path: 'principal', component: PrincipalAppComponent
+    path: '', 
+    component: PrincipalAppComponent,
+    children: [
+      { 
+        path: 'app', 
+        loadChildren: './app/app.module#AppModule',
+        data: { title: 'Session'} 
+      }
+    ]
   },
+  
   {
     path: "**",
     redirectTo: '/'
